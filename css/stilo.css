@@ -1,4 +1,6 @@
 body{
+    display: flex;
+    flex-direction: column;
     background: #1e1f24;
     color:#333;
     text-align: center;
@@ -15,6 +17,7 @@ body{
     font-weight: bold;
     margin: 0;
     padding: 0.5rem;
+    display: flex;
 }
 
 #cabecera #logo{
@@ -41,16 +44,17 @@ body{
 }
 
 #post{
+    flex: 1;
     background: white;
     padding: 1rem;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
-<<<<<<< HEAD
-=======
 #footer{
     background: #777;
     color: white;
     text-align: center;
     padding: 0.5em;
+    
 }
->>>>>>> footer
